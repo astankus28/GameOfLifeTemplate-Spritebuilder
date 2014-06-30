@@ -1,5 +1,5 @@
 //
-//  Creatures.h
+//  Creature.h
 //  GameOfLife
 //
 //  Created by Abriani on 6/30/14.
