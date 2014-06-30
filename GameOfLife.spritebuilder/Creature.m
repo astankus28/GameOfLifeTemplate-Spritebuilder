@@ -1,12 +1,12 @@
 //
-//  Creatures.m
+//  Creature.m
 //  GameOfLife
 //
 //  Created by Abriani on 6/30/14.
 //  Copyright (c) 2014 Apportable. All rights reserved.
 //
 
-#import "Creatures.h"
+#import "Creature.h"
 
 @implementation Creatures
 
