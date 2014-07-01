@@ -148,11 +148,14 @@ static const int GRID_COLUMNS = 10;
     return isIndexValid;
 }
 
- -(void) updateCreatures { int numAlive = 0; Creature *_creature;
+ -(void) updateCreatures {
+     int numAlive = 0;
+     Creature *_creature;
      for (int i = 0; i < [_gridArray count]; i ++) {
-         for (int j = 0; j < i; j ++) { if (j == 3) {
+         for (int j = 0; j < i; j ++) {
+             if (j == 3) {
              _creature.isAlive = YES; numAlive ++; }
-             else { if ([_gridArray count] <= 1 || [_gridArray count] >= 4) {
+             else { if([_gridArray count] <= 1 || [_gridArray count] >= 4) {
                  _creature.isAlive = NO;
              }
              }
